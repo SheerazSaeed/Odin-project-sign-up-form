@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
-    <link href="https://fonts.googleapis.com/css2?family=Norse:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="signup-container" style="background-image: url('./background.jpg');">
-          <div class="logo-container" style="background: rgba(0, 0, 0, 0.5);">
-            <h1 style="font-family: 'Norse', sans-serif;">ODIN</h1>  
-        <form id="signupForm">
-            <input type="text" id="name" placeholder="Name" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="password" id="password" placeholder="Password" required class="input-error">
-            <input type="password" id="confirmPassword" placeholder="Confirm Password" required class="input-error">
-            <button type="submit" id="createAccount">Create Account</button>
-            <p id="errorMessage" style="color: red;"></p>
-        </form>
-      </div>
-      </div>
-      </div>
+    <div class="container">
+        <div class="background-section"></div>
+        <div class="form-section">
+            <h2>Create Account</h2>
+            <form id="signupForm">
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone Number" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Ensure this path matches your JavaScript file location -->
 </body>
 </html>
