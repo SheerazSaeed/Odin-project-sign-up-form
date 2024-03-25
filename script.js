@@ -9,7 +9,6 @@ document.getElementById('signupForm').addEventListener('submit', function(enter)
       errorMessage.textContent = 'Passwords do not match.';
   } else {
       errorMessage.textContent = '';
-      // Here you can add further form submission logic
       alert('Form submitted successfully!');
   }
 });
