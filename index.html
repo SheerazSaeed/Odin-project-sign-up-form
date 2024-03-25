@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Norse:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="signup-container" style="background-image: url('./background.jpg');">
+          <div class="logo-container" style="background: rgba(0, 0, 0, 0.5);">
+            <h1 style="font-family: 'Norse', sans-serif;">ODIN</h1>  
+        <form id="signupForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required class="input-error">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required class="input-error">
+            <button type="submit" id="createAccount">Create Account</button>
+            <p id="errorMessage" style="color: red;"></p>
+        </form>
+      </div>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
