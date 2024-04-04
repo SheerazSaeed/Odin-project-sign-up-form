@@ -30,6 +30,23 @@ body, html {
   justify-content: center; 
 }
 
+.form-section-bottom {
+  background-color:aliceblue;
+  width:auto;
+  height: 200px;
+}
+
+.login-section-bottom
+{
+  display:inline-flex;
+  font-weight: bold;
+}
+.click-login
+{
+  color: #596D48;
+  padding-left: 4px;
+}
+
 input[type="text"], 
 input[type="email"], 
 input[type="password"],
@@ -51,6 +68,7 @@ button {
   cursor: pointer;
   margin-top: 10px;
   width: 30%;
+  font-weight: bolder;
 }
 
 button:hover {
