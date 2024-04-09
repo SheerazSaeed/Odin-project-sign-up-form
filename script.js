@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
   clickLoginDiv.addEventListener('click', function() {
       const loginFormHtml = `
           <div id="loginForm">
-              <input type="text" id="username" name="username" placeholder="Username" required>
+              <input type="text" id="username" name="username" placeholder="JohnDoe" required>
               <input type="password" id="loginPassword" name="loginPassword" placeholder="Password" required>
               <button type="submit">Login</button>
           </div>
