@@ -12,3 +12,19 @@ document.getElementById('signupForm').addEventListener('submit', function(enter)
       alert('Form submitted successfully!');
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const clickLoginDiv = document.querySelector('.click-login');
+  clickLoginDiv.addEventListener('click', function() {
+      const loginFormHtml = `
+          <div id="loginForm">
+              <input type="text" id="username" name="username" placeholder="Username" required>
+              <input type="password" id="loginPassword" name="loginPassword" placeholder="Password" required>
+              <button type="submit">Login</button>
+          </div>
+      `;
+      if (!document.getElementById('loginForm')) {
+          document.querySelector('.form-section').innerHTML += loginFormHtml;
+      }
+  });
+});

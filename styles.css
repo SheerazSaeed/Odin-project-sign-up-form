@@ -85,3 +85,10 @@ button {
 button:hover {
   opacity: 0.9;
 }
+
+.click-login{
+    cursor: pointer;
+    color: #007bff; 
+    text-decoration: underline; 
+};
+
